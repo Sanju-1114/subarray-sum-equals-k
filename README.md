@@ -33,6 +33,7 @@ The repository includes a C++ implementation in the file `hashing_subarray_sum_e
 - For each prefix sum, check if there exists a previous prefix sum such that `prefixSum[j] - k` exists in the map. If it does, add its frequency to the count.
 - Update the map with the current prefix sum's frequency.
 
+
 ## Files
 - `hashing_subarray_sum_eqauls_K.cpp`: Contains the C++ code with both brute force (commented) and optimal solutions.
 
